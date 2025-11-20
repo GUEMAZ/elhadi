@@ -206,7 +206,7 @@ box-shadow: 0 10px 20px rgba(212, 175, 55, 0.5);
 }
 
 .skills-title {
-font-size: 1.5rem;
+font-size: 1.3rem;
 margin-bottom: 15px;
 color: #d4af37;
 }
@@ -244,12 +244,12 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 transform: translateY(-5px);
 box-shadow: 0 10px 20px rgba(212, 175, 55, 0.5);
 }
-
 .project-year {
-display: inline-block;
-margin-top: 15px;
-color: #d4af37;
-font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #d4af37;
+  font-weight: bold;
 }
 
 /* =========================================
@@ -401,4 +401,5 @@ RESPONSIVE
 .navbar nav ul { flex-direction: column; gap: 15px; }
 .skills-grid, .projects-section, .certifications-section { grid-template-columns: 1fr; }
 }
+
 
