@@ -81,6 +81,7 @@ background: #d4af37;
   height: 4px;
 
   background: linear-gradient(90deg, #d4af37, #f0e6d2);
+  color: #d4af37;
   border-radius: 2px;
 
   /* Animation */
@@ -149,7 +150,7 @@ object-fit: cover;
 .social-links {
   margin-top: 20px;
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .social-links {
@@ -206,6 +207,15 @@ ABOUT SECTION
 ========================================= */
 .about-details {
 padding: 80px 20px;
+}
+.about-hero h1 {
+  margin-bottom: 10px;  
+}
+.about-hero p {
+  margin-top: 5px;
+}
+.about-hero h2 {
+  margin-bottom: 10px;   
 }
 .skills-grid {
 display: grid;
@@ -399,6 +409,7 @@ RESPONSIVE
 .navbar nav ul { flex-direction: column; gap: 15px; }
 .skills-grid, .projects-section, .certifications-section { grid-template-columns: 1fr; }
 }
+
 
 
 
