@@ -164,14 +164,14 @@ object-fit: cover;
 SECTIONS HEADINGS
 ========================================= */
 section h1, section h2 {
-font-size: 2.0rem;
+font-size: 2.2rem;
 margin-bottom: 10px;
 text-align: center;
 color: #d4af37;
 }
 
 section p {
-font-size: 1.0rem;
+font-size: 1.1rem;
 max-width: 750px;
 margin: 0 auto 200px;
 color: #f0e6d2;
@@ -184,7 +184,6 @@ ABOUT SECTION
 .about-details {
 padding: 80px 20px;
 }
-
 .skills-grid {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -266,30 +265,6 @@ gap: 30px;
 margin-bottom: 10px;
 color: #d2ae39;
 text-align: center;
-}
-
-.cert-buttons {
-display: flex;
-flex-wrap: wrap;
-gap: 15px;
-justify-content: center;
-}
-
-.cert-buttons a.btn {
-background: #111;
-border: 2px solid #d4af37;
-color: #d4af37;
-padding: 10px 20px;
-border-radius: 10px;
-display: flex;
-align-items: center;
-gap: 10px;
-transition: all 0.3s ease;
-}
-
-.cert-buttons a.btn:hover {
-background: #d4af37;
-color: #0a0a0a;
 }
 
 /* =========================================
@@ -401,6 +376,7 @@ RESPONSIVE
 .navbar nav ul { flex-direction: column; gap: 15px; }
 .skills-grid, .projects-section, .certifications-section { grid-template-columns: 1fr; }
 }
+
 
 
 
