@@ -158,7 +158,7 @@ object-fit: cover;
 .social-links a.linkedin { color: #0A66C2; }   /* LinkedIn Blue */
 .social-links a.github { color: #e7efea9b; }     /* GitHub Black */
 .social-links a.whatsapp { color: #25D366; }   /* WhatsApp Green */
-.social-links a.email { color: #1f045e; }      /* Gmail Red */
+.social-links a.email { color:#0A66C2; }      /* Gmail Red */
 
 /* =========================================
 SECTIONS HEADINGS
@@ -202,6 +202,7 @@ transition: transform 0.3s ease;
 
 .skills-box:hover {
 transform: translateY(-5px);
+box-shadow: 0 10px 20px rgba(212, 175, 55, 0.5);
 }
 
 .skills-title {
@@ -400,3 +401,4 @@ RESPONSIVE
 .navbar nav ul { flex-direction: column; gap: 15px; }
 .skills-grid, .projects-section, .certifications-section { grid-template-columns: 1fr; }
 }
+
